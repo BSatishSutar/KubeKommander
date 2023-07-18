@@ -2,7 +2,7 @@
 KubeKommander: A comprehensive educational repository that serves as a guiding compass, unraveling the complexities of Kubernetes with detailed examples, step-by-step tutorials, and invaluable insights to empower you in mastering the art of cluster management and orchestration.
 
 
-```markdown
+```
 # KubeKommander
 
 Welcome to KubeKommander! This repository serves as a documentation of my journey and learnings in the world of Kubernetes. Here, you will find various commands, deployment manifests, and explanations to help you navigate through the Kubernetes ecosystem.
@@ -19,59 +19,59 @@ Welcome to KubeKommander! This repository serves as a documentation of my journe
 
 ### Basic Commands
 
-#### `kubectl get pods`
-- Syntax: `kubectl get pods`
-- Example: `kubectl get pods -n default`
+kubectl get pods
+- Syntax: kubectl get pods
+- Example: kubectl get pods -n default
 - Imperative command
 - Explanation: This command lists all pods in the current namespace.
 
-#### `kubectl get deployments`
-- Syntax: `kubectl get deployments`
-- Example: `kubectl get deployments -n default`
+kubectl get deployments
+- Syntax: kubectl get deployments
+- Example: kubectl get deployments -n default
 - Imperative command
 - Explanation: This command lists all deployments in the current namespace.
 
-#### `kubectl create`
-- Syntax: `kubectl create [resource]`
-- Example: `kubectl create -f deployment-manifests.yml`
+kubectl create
+- Syntax: kubectl create [resource]
+- Example: kubectl create -f deployment-manifests.yml
 - Imperative command
 - Explanation: This command creates a resource from a file or standard input.
 
-#### `kubectl delete`
-- Syntax: `kubectl delete [resource]`
-- Example: `kubectl delete deployment sample-deployment`
+kubectl delete
+- Syntax: kubectl delete [resource]
+- Example: kubectl delete deployment sample-deployment
 - Imperative command
 - Explanation: This command deletes resources by filenames, filenames with wildcard, or resources specified in a YAML/JSON file.
 
-#### `kubectl apply`
-- Syntax: `kubectl apply -f [resource]`
-- Example: `kubectl apply -f deployment-manifests.yml`
+kubectl apply
+- Syntax: kubectl apply -f [resource]
+- Example: kubectl apply -f deployment-manifests.yml
 - Imperative command
 - Explanation: This command applies changes to resources by filename, filenames with wildcard, or resources specified in a YAML/JSON file.
 
 ### Advanced Commands
 
-#### `kubectl scale`
-- Syntax: `kubectl scale --replicas=[number] [resource]`
-- Example: `kubectl scale --replicas=5 deployment/sample-deployment`
+kubectl scale
+- Syntax: kubectl scale --replicas=[number] [resource]
+- Example: kubectl scale --replicas=5 deployment/sample-deployment
 - Imperative command
 - Explanation: This command scales the number of replicas in a deployment, replica set, or stateful set.
 
-#### `kubectl rollout`
-- Syntax: `kubectl rollout [command] [resource]`
-- Example: `kubectl rollout status deployment/sample-deployment`
+kubectl rollout
+- Syntax: kubectl rollout [command] [resource]
+- Example: kubectl rollout status deployment/sample-deployment
 - Imperative command
 - Explanation: This command manages rollouts of a deployment.
 
-#### `kubectl logs`
-- Syntax: `kubectl logs [pod]`
-- Example: `kubectl logs sample-pod`
+kubectl logs
+- Syntax: kubectl logs [pod]
+- Example: kubectl logs sample-pod
 - Imperative command
 - Explanation: This command prints the logs for a pod or container.
 
-#### `kubectl exec`
-- Syntax: `kubectl exec [pod] [command]`
-- Example: `kubectl exec sample-pod -- ls /app`
+kubectl exec
+- Syntax: kubectl exec [pod] [command]
+- Example: kubectl exec sample-pod -- ls /app
 - Imperative command
 - Explanation: This command executes a command in a container.
 
