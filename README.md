@@ -51,6 +51,9 @@ kubectl apply
 
 ### Advanced Commands
 
+kubectl api-resources
+This command provides a list of the available Kubernetes API resources in your cluster. It helps you explore and understand the various Kubernetes objects that you can interact with using kubectl commands.
+
 kubectl scale
 - Syntax: kubectl scale --replicas=[number] [resource]
 - Example: kubectl scale --replicas=5 deployment/sample-deployment
