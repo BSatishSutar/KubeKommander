@@ -1,24 +1,25 @@
 # KubeKommander
 KubeKommander: A comprehensive educational repository that serves as a guiding compass, unraveling the complexities of Kubernetes with detailed examples, step-by-step tutorials, and invaluable insights to empower you in mastering the art of cluster management and orchestration.
 
-
-```
-# KubeKommander
+KubeKommander
 
 Welcome to KubeKommander! This repository serves as a documentation of my journey and learnings in the world of Kubernetes. Here, you will find various commands, deployment manifests, and explanations to help you navigate through the Kubernetes ecosystem.
 
-## Kubernetes Components
+### Kubernetes Components
 
-### Default Namespaces
+ Default Namespaces
 - `default`: The default namespace where objects are created if no other namespace is specified.
 - `kube-system`: Namespace for Kubernetes system components and other essential resources.
 - `kube-public`: Read-only namespace accessible by all users, including unauthenticated users.
 - `kube-node-lease`: Namespace containing node lease objects to improve cluster stability.
 
-## Commands
+# Commands
 
 ### Basic Commands
 
+kubectl get namespace
+- This command provides a summary of all namespaces in a Kubernetes cluster, including both default and user-defined namespaces. It displays the names, statuses, creation times, and associated labels for each namespace. This command assists administrators and developers in efficiently managing and organizing resources within the appropriate namespaces.
+  
 kubectl get pods
 - Syntax: kubectl get pods
 - Example: kubectl get pods -n default
@@ -52,7 +53,7 @@ kubectl apply
 ### Advanced Commands
 
 kubectl api-resources
-This command provides a list of the available Kubernetes API resources in your cluster. It helps you explore and understand the various Kubernetes objects that you can interact with using kubectl commands.
+- This command provides a list of the available Kubernetes API resources in your cluster. It helps you explore and understand the various Kubernetes objects that you can interact with using kubectl commands.
 
 kubectl scale
 - Syntax: kubectl scale --replicas=[number] [resource]
