@@ -1,7 +1,4 @@
 # KubeKommander
-KubeKommander: A comprehensive educational repository that serves as a guiding compass, unraveling the complexities of Kubernetes with detailed examples, step-by-step tutorials, and invaluable insights to empower you in mastering the art of cluster management and orchestration.
-
-KubeKommander
 
 Welcome to KubeKommander! This repository serves as a documentation of my journey and learnings in the world of Kubernetes. Here, you will find various commands, deployment manifests, and explanations to help you navigate through the Kubernetes ecosystem.
 
@@ -80,7 +77,7 @@ kubectl exec
 - Explanation: This command executes a command in a container.
 
 ## Sample Manifests
-```
+ 
 ### Deployment Manifest (deployment-manifests.yml)
 ```yaml
 apiVersion: apps/v1
